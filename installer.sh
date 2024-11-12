@@ -16,10 +16,10 @@ GENERATE_SECURE_SECRET_CMD="openssl rand --hex 16"
 GENERATE_K256_PRIVATE_KEY_CMD="openssl ecparam --name secp256k1 --genkey --noout --outform DER | tail --bytes=+8 | head --bytes=32 | xxd --plain --cols 32"
 
 # The Docker compose file.
-COMPOSE_URL="https://raw.githubusercontent.com/bluesky-social/pds/main/compose.yaml"
+COMPOSE_URL="https://raw.githubusercontent.com/mrbrandoncharles/pds/main/compose.yaml"
 
 # The pdsadmin script.
-PDSADMIN_URL="https://raw.githubusercontent.com/bluesky-social/pds/main/pdsadmin.sh"
+PDSADMIN_URL="https://raw.githubusercontent.com/mrbrandoncharles/pds/main/pdsadmin.sh"
 
 # System dependencies.
 REQUIRED_SYSTEM_PACKAGES="
