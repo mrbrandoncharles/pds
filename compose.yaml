@@ -1,4 +1,3 @@
-version: '3.9'
 services:
   caddy:
     container_name: caddy
@@ -37,3 +36,4 @@ services:
     environment:
       WATCHTOWER_CLEANUP: true
       WATCHTOWER_SCHEDULE: "@midnight"
+
